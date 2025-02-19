@@ -15,7 +15,7 @@ Features in the portfolio project include:
 <!-- Instructions for Accessing the Deployed Page -->
 # How to access the deployed page
 
-[Live demo](url-link)
+[Live demo](https://rijalportfolio.netlify.app/)
 
 1. Clone this repository:
 
