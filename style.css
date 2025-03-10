@@ -1,0 +1,43 @@
+:root{
+
+    /* Color */
+    --color-brutal-primary: #3300ff;
+    --color-brutal-primary-variant: #00FF00;
+    --color-surface: #ffffff;
+    --color-surface-variant: #000000;
+    
+    /* Font */
+    --font-space-groteks: "Space Grotesk";
+    --font-poppins: "Poppins";
+
+    /* Shadow */
+    --shadow-brutal-1: 4px 4px 0px #ffffff;
+    --shadow-brutal-2: 4px 4px 0px #000000;
+    --shadow-brutal-3: 6px 6px 0px #000000;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+h2 strong{
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.custom-scrollbar::-webkit-scrollbar{
+    width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track{
+    background-color: var(--color-brutal-primary-variant);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb{
+    background-color: var(--color-brutal-primary);
+    border-radius: 3px;
+}
