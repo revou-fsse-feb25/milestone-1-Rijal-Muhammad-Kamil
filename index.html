@@ -272,6 +272,33 @@
                         </div>
                     </div>
                 </article>
+
+                <!-- Project 3 -->
+                <article class="bg-[var(--color-surface)] border-[2px] shadow-(--shadow-brutal-3) rounded-md p-[1rem]">
+                    <h3 class="font-(family-name:--font-space-groteks) text-2xl leading-[1.3] font-bold text-center text-(--color-brutal-primary) mb-[2rem]">TicketQ</h3>
+                    <div class="flex mb-10">
+                        <img src="/assets/Screenshot 2026-01-30 194840.png" alt="image project 1" class="w-100 border-[2px] rounded-md shadow-(--shadow-brutal-2)">
+                        <div class="flex-1 pl-5">
+                            <h4 class="font-(family-name:--font-space-groteks) text-lg font-medium leading-[1.4]">Problem</h4>
+                            <p class="font-(family-name:--font-poppins) leading-[1.6] mb-2">Indonesian travelers face multiple challenges when booking flights online: existing platforms have slow loading times and poor performance, interfaces are cluttered and not mobile-friendly despite most users accessing from smartphones, the lack of consolidated airline options forces users to compare prices across multiple platforms, and complex booking flows with unclear payment processes create friction. Additionally, poor search functionality and inadequate filtering options make it difficult to find suitable flights quickly, reducing user satisfaction and increasing booking abandonment rates.</p>
+                            <h4 class="font-(family-name:--font-space-groteks) text-lg font-medium leading-[1.4]">Solution</h4>
+                            <p class="font-(family-name:--font-poppins) leading-[1.6] mb-2">To address these challenges, the project implements Hexagonal Architecture with four layers: Domain Layer containing pure business entities and port interfaces without framework dependencies, Application Layer with use cases orchestrating workflows, Infrastructure Layer with concrete adapters for TypeORM database, Midtrans payment gateway, and MMBC flight vendor API, and Presentation Layer with NestJS controllers. The architecture applies dependency inversion where use cases depend on abstractions (ports) implemented by infrastructure adapters, enabling testability and swappable implementations. Key features include rich domain models with embedded business rules, external service integration with proper authentication and error handling, and comprehensive testing across all layers.</p>
+                            <h4 class="font-(family-name:--font-space-groteks) text-lg font-medium leading-[1.4]">Output</h4>
+                            <p class="font-(family-name:--font-poppins) leading-[1.6]">The deliverables include fully functional Transactions Service and Flight Service with complete API endpoints, proper Hexagonal Architecture implementation with clear separation of concerns, TypeScript codebase with comprehensive testing and API documentation, and successful integration with Midtrans payment gateway and MMBC flight vendor. Personal outcomes include mastery of Hexagonal Architecture and Domain-Driven Design, hands-on experience with microservices and external API integration, and proficiency in building testable, maintainable code following SOLID principles.</p>
+                            <p class="font-(family-name:--font-poppins) text-lg leading-[1.6] mt-[1rem]"><strong>Technologies used:</strong>NestJS, Nx, TypeOrm, Midtrans</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center my-[1rem]">
+                        <div class=" font-(family-name:--font-space-groteks) text-white font-extrabold bg-(--color-brutal-primary) border-[2px] border-black rounded-md shadow-(--shadow-brutal-2) py-[0.5rem] px-[0.8rem] mr-[2rem]">
+                            <i aria-hidden="true" class="fa-solid fa-eye mr-[0.5rem] animate-[float_3s_ease-in-out_infinite]"></i>
+                            <a href="https://github.com/ini-tiket-q/BE-Nest" target="_blank">View Project</a>
+                        </div>
+                        <div class=" font-(family-name:--font-space-groteks) font-extrabold bg-(--color-brutal-primary-variant) border-[2px] rounded-md shadow-(--shadow-brutal-2) py-[0.5rem] px-[0.8rem]">
+                            <i aria-hidden="true" class="fa-solid fa-code mr-[0.5rem] animate-[float_3s_ease-in-out_infinite]"></i>
+                            <a href="https://github.com/ini-tiket-q/BE-Nest" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
 
